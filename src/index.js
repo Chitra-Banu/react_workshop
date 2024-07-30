@@ -3,11 +3,39 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Class1 from './Class1';
+import Display from "./Class1"
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// function Name(){
+//   const name="banu"
+//   return(
+//     <p>Hello,My name is {name}! </p>
+//   )
+// }
+
+// function Age(){
+//   const age=22;
+//   return(
+//     <p>Age : {age}</p>
+//   )
+// }
+
+// function Roll(){
+//   const roll="23MCA009"
+//   return(
+//     <p>Roll Number : {roll}</p>
+//   )
+// }
 root.render(
   <React.StrictMode>
     <App />
+    {/* <Class1/> */}
+    {/* <Name/>
+    <Age/>
+    <Roll/> */}
+
+
   </React.StrictMode>
 );
 
